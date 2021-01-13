@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-width: 500px;
+  height: 100px;
+  background-color: lightpink;
+  overflow: hidden;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.wlogo {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.cName {
+  font-weight: 1000px;
+  margin-top: 15px;
+  padding-left: 10px;
+  font-style: bold;
+}
+
+.input {
+  height: 35px;
+  min-width: 700px;
+  outline: none;
+  border: none;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid lightslategray;
+  height: 10px;
+
+  margin-left: 80px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.input_search {
+  cursor: pointer;
+  color: gray;
+}
